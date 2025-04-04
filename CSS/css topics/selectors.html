@@ -1,0 +1,136 @@
+<HTML>
+<HEAD>
+
+<link rel="stylesheet" href="C:\Users\Srivani\OneDrive\ドキュメント\stylesheet.css">
+<style>
+h1{
+ background-color:white;
+  color:black}
+  p{ text-align:center;
+  }
+ h2{
+ background-color:white;
+  color:black}
+  p{ text-align:center;
+  }
+  #selector {text-align:center;
+  color:red;
+  }
+  .class{text-align:left;
+  color:yellow;
+  }
+  *{color: purple;
+  }
+  div p {
+  background-color: yellow;
+}
+ div > p {
+  background-color:green;
+}
+div + p {
+  background-color: blue;
+}
+ div ~ p {
+  background-color: yellow;
+}
+ </style>
+</HEAD>
+<BODY>
+<h1>external css</h1>
+<p>With an external style sheet, you can change the look of an entire website by changing just one file!
+
+Each HTML page must include a reference to the external style sheet file inside the
+ link element, inside the head section.
+ An external style sheet can be written in any text editor, and must be saved with a .css extension.
+The external .css file should not contain any HTML tags.</p>
+ <h1>internal css</h1>
+ <p>An internal style sheet may be used if one single HTML page has a unique style.
+The internal style is defined inside the style element, inside the head section. 
+</p>
+<h1 style="color:purple;text-align:center;">inline css</h1>
+<p style="color:red;">An inline style may be used to apply a unique style for a single element.
+To use inline styles, add the style attribute to the relevant element. The style attribute can contain any CSS property.
+
+</p>
+<h1>single element selector</h1>
+<p>The element selector selects HTML elements based on the element name.</p>
+<h1>grouping selector</h1>
+<p>The grouping selector selects all the HTML elements with the same style definitions.
+</p>
+<h1 id=selector>id selector</h1>
+<p>The id selector uses the id attribute of an HTML element to select a specific element.
+
+The id of an element is unique within a page, so the id selector is used to select one unique element!
+To select an element with a specific id, write a hash (#) character, followed by the id of the element.
+</p>
+<h1 class="class">class selector</h1>
+<p>The class selector selects HTML elements with a specific class attribute.
+
+To select elements with a specific class, write a period (.) character, followed by the class name.
+</p>
+<h1>universal selector</h1>
+<p>The universal selector (*) selects all HTML elements on the page.</p>
+<h1 style="background-color:brown";> combinator selectors</h1>
+<p>A combinator is something that explains the relationship between the selectors.
+
+A CSS selector can contain more than one simple selector.
+ Between the simple selectors, we can include a combinator.</P>
+<h2>1.Descendant combinator (space)</h2>
+<div><p>The descendant combinator matches all 
+elements that are descendants of a specified element.</p>
+
+sfegrytjkldfswqtyuudasdswf
+dkdnbwiydghowkdncvbnm,
+rtudakjd vaufsaiy</div>
+
+<h2>2.Child Combinator (>)</h2>
+<div><p>The child combinator selects all elements that are the children of a specified element.
+</P>
+<p>The child combinator selects all elements that are the children of a specified element.</p></div>
+<p>this is not included in div</p>
+
+<h2>3.adjacent Combinator (+)</h2>
+<div>
+<p>The next sibling combinator is used to select an 
+element that is directly after another specific element.
+
+Sibling elements must have the same parent element, 
+and "adjacent" means "immediately </p>
+<p>is is not</p></div>
+
+<p>The next sibling combinator is used to select an 
+element that is directly after another specific element.
+
+Sibling elements must have the same parent element, 
+and "adjacent" means "immediately </p>
+<p>is is not</p>
+<div>
+<p>The next sibling combinator is used to select an 
+element that is directly after another specific element.
+
+Sibling elements must have the same parent element, 
+and "adjacent" means "immediately </p>
+<p>is is not</p></div>
+
+<p>The next sibling combinator is used to select an 
+element that is directly after another specific element.
+
+Sibling elements must have the same parent element, 
+and "adjacent" means "immediately </p>
+<p>is is not</p>
+<h2>4.general sibiling selector(~)</h2>
+<p>The- general combinator selects all elements that are next siblings of a specified element.</p>
+<p>The general sibling selector (~) selects all elements that are next siblings of a specified element.</p>
+
+<p>Paragraph </p>
+
+<div>
+  <p>Paragraph </p>
+</div>
+
+<p>Paragraph </p>
+
+<p>Paragraph </p>
+</Body>
+
+</HTML>

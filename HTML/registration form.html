@@ -1,0 +1,82 @@
+<html>
+<head>
+ </head>
+<body style="background-color:skyblue">
+ <form>
+ <div style="text-align:center">
+  <h1>Register</h1><br><br>
+  <p>Please fill in this form to create an account<p>
+ 
+ <table  style="margin-left:auto;margin-right:auto">
+   <tr >
+      <td ><label for="usn"><b>Username </b></label></td>
+  <td ><input type="text" id="usn" placeholder="Enter username" name="username"/>
+	  </td>
+   </tr>
+   <tr>
+   <td><label for="name"><b>Name </b></label></td>
+  <td ><input type="text" id="name" placeholder="Enter name" name="name"/></td>
+   </tr>
+   <tr>
+   <td><label for="email"><b>Email </b></label></td>
+   <td><input type="email" id="name" placeholder="Enter email" name="email"/></td>
+   </tr>
+   <tr>
+   <td><label for="pwd"><b>Password </b></label></td>
+   <td><input type="password" id="pwd" placeholder="Enter password" name="pssd"/></td>
+   </tr>
+   <tr>
+   <td><label for="pwdd"><b>Repeat Password </b></label></td>
+   <td><input type="password" id="pwdd" placeholder="Repeat Password" name="rep psssd"/></td>
+   </tr>
+   <tr>
+   <td> <label for="dob"><b>DOB</b></label></td>
+   <td><input type="date" id="dob"  name="dob"/></td>
+   </tr>
+   <tr>
+   <td><label for="gen"><b>Gender</b></label></td>
+   <td> <input type="radio" id="gen"  name="gender" value="Male"/>Male<br>
+  <input type="radio" id="gen"  name="gender" value="feMale" checked/>Female<br>
+  <input type="radio" id="gen"  name="gender" value="others" />others</td>
+   </tr>
+   <tr>
+   <td><label for="lng"><b>Languages Known</b></td>
+   <td><input type="checkbox" id="lng" name="lang" value="English"/>English
+        <input type="checkbox" id="lng" name="lang" value="Hindi" checked/>Hindi
+		<input type="checkbox" id="lng" name="lang" value="Tamil"/>Tamil
+		<input type="checkbox" id="lng" name="lang" value="Telugu"/>Telugu</td>
+   </tr>
+   <tr>
+   <td><label for="con"><b>Contact Number</b></label></td>
+   <td><input type="tel" id="con" name="contact" placeholder="phone number"/></td>
+   </tr>
+   <tr>
+   <td><label for="up"><b>Upload</b></label></td>
+   <td><input type="file" id="up" name="upload"/></td>
+   </tr>
+   <tr>
+   <td><label for="fav"><b>Favourite Color</b></label></td>
+   <td><input type="color" id="fav" name="fav"/></td>
+   </tr>
+   <tr>
+   <td><label for="Down"><b>Download File</b></label></td>
+   <td><input type="button" id="down" name="file" value="Download PDF file" />
+   <button type="button"  id="down" onclick="alert('invalid')">Download Pdf File</button></td>
+   </tr>
+   <tr>
+   <td><label for="qual"><b>Qualification</b></label></td>
+   
+   <td><select id ="qual" name="qualifications">
+   <option value="Degree" >Degree</option>
+       <option value="masters" selected>Masters</option>
+	   <option value="inter">Inter</option></select>
+   </td>
+   </tr>
+   </table>
+   <input type="submit" value="Register"/>
+   <input type="reset" value="clear"/>
+   
+</div>
+ </form>
+ </body>
+</html>

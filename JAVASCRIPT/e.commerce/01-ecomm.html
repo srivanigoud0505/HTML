@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>E-COMMERECE WEBSITE</title>
+    <link rel="stylesheet" href="02-ecomm.css">
+</head>
+<body>
+    <span >&#9763;SR  PREMIUM  WATCH STORE   </span> 
+    <marquee >
+       MENS LUXURY WATCHES &emsp; FLAT 50% OFF  &emsp; MENS LUXURY WATCHES &emsp; FLAT 50% OFF &emsp; MENS LUXURY WATCHES &emsp; FLAT 50% OFF
+        </marquee>
+
+    <section class="product-grid" id="product-grid">
+    
+  </section>
+
+  <section class="cart" id="cart">
+    <h2>Shopping Cart</h2>
+    <ul id="cart-items"></ul>
+    <p>Total: $<span id="cart-total">0.00</span></p>
+    <button onclick="checkout()">Checkout</button>
+  </section>
+
+
+
+  <div class="receipt-modal" id="receipt-modal">
+    <div class="modal-content">
+      <h2>Receipt</h2>
+      <ul id="receipt-items"></ul>
+      <p>Total: $<span id="receipt-total">0.00</span></p>
+      <button onclick="closeModal()">place order</button>
+    </div>
+  </div>
+  <script src="03-ecomm.js"></script>
+  
+</body>
+</html>

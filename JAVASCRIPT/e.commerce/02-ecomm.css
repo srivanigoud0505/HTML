@@ -1,0 +1,141 @@
+span{
+ font-size: 70px;
+
+ 
+
+}
+marquee{
+  color: chocolate;
+  background-color: lemonchiffon;
+  font-size: x-large;
+  
+}
+.product-grid{
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(200px,1fr));
+    gap: 20px;
+    padding: 20px;
+}
+.product {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    text-align: center;
+    padding: 15px;
+    transition: transform 0.3s;
+  }
+  .product {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    text-align: center;
+    padding: 15px;
+    transition: transform 0.3s;
+  }
+
+  .product:hover {
+    transform: scale(1.05);
+  }
+
+  .product img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 5px;
+  }
+
+  .product h3 {
+    font-size: 1.2rem;
+    margin: 10px 0;
+  }
+
+  .product p {
+    margin: 5px 0;
+  }
+
+  .product button {
+    background-color: #28a745;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+
+  .product button:hover {
+    background-color: #218838;
+  }
+
+  .cart {
+    padding: 20px;
+  }
+
+  .cart ul {
+    list-style: none;
+    padding: 0;
+  }
+
+  .cart li {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+  }
+
+  .cart button {
+    background-color: #dc3545;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+
+  .cart button:hover {
+    background-color: #c82333;
+  }
+
+  .receipt-modal {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.7);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    display: none;
+  }
+
+  .receipt-modal .modal-content {
+    background-color: white;
+    padding: 20px;
+    border-radius: 5px;
+    text-align: center;
+  }
+
+  .receipt-modal button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+
+  .receipt-modal button:hover {
+    background-color: #0056b3;
+  }
+  .cart{
+    color: chocolate;
+    background-color: lemonchiffon;
+  }
+  shop{
+    
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+      gap: 10px;
+      padding: 20px;
+  
+  }
